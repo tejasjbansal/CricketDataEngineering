@@ -1,0 +1,47 @@
+# Compiled files
+*.pyc
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.env
+env/
+venv/
+node_modules/
+*.log
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
+
+# Dependencies
+# Add entries for your specific dependencies such as virtual environments, package managers, etc.
+
+# Ignore API keys and sensitive information
+# Add entries for files or directories containing sensitive information
