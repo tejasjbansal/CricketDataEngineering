@@ -45,7 +45,7 @@ This project leverages Apache Airflow to crawl cricket stadium data from Wikiped
 1. **Clone the Repository**
 
     ```sh
-    git clone https://github.com/your-username/CricketDataEngineering.git
+    git clone https://github.com/tejasjbansal/CricketDataEngineering.git
     cd CricketDataEngineering
     ```
 
