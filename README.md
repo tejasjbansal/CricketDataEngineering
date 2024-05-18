@@ -4,19 +4,23 @@ Welcome to the Cricket Stadium Data Pipeline project! This Python-based project 
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [System Architecture](#) 
+- [System Architecture](#System-Architecture) 
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Dashboard]
+- [Dashboard](#dashboard)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
 This project leverages Apache Airflow to crawl cricket stadium data from Wikipedia, clean the data, and push it to Azure Data Lake. Azure Data Factory is then used to pull and process the data, storing the clean data back into Azure Data Lake. For analytics, Azure Synapse Analytics is utilized, and the data is finally visualized using Tableau.
+
+## System Architecture
+![Project Architecture](https://github.com/tejasjbansal/CricketDataEngineering/assets/56173595/6f3edab5-9137-47ad-b5db-2eeb5a1d27b6)
+
 
 ## Features
 
@@ -117,6 +121,9 @@ cricket-stadium-data-pipeline/
 - **data/**: Directory for storing temporary data files.
 - **requirements.txt**: Python dependencies.
 - **README.md**: Project documentation.
+
+## Dashboard
+![Dashboard](https://github.com/tejasjbansal/CricketDataEngineering/assets/56173595/e8462f24-5236-4f6c-9679-e32106e8bb3d)
 
 ## Contributing
 
