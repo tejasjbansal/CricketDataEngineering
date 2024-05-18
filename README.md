@@ -108,7 +108,7 @@ cricket-stadium-data-pipeline/
 ├── dags/
 │   ├── wikipedia_flow.py
 ├── scripts/
-│   ├── setup_postgres.sh
+│   ├── entrypoint.sh
 ├── data/
 |── pipelines/
 │   ├── wikipedia_pipeline.py
